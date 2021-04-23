@@ -42,7 +42,7 @@ class SettingsService {
             .update(Setting)
             .set({ chat })
             .where("username = :username", { username })
-            .execute();
+        .execute();
     }
 }
 
