@@ -1,9 +1,5 @@
 import {
-    Entity,
-    Column,
-    CreateDateColumn,
-    UpdateDateColumn,
-    PrimaryColumn
+    Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn
 } from "typeorm";
 import { v4 as uuid } from "uuid";
 
